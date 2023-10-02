@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.pizza-preview {
+  padding: 10px 16px;
+  margin:  20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.pizza-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.pizza-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.topping-preview {
+  margin-left: 20px;
+}
+
+.create {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.create label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.create select,
+.create input[type="checkbox"] {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.create ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.create ul li {
+  margin-bottom: 10px;
+}
+
+.create button {
+  background-color: #f1356d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.create button:hover {
+  background-color: #d81b60;
+}
+
+.create p {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.create h2 {
+  margin-bottom: 30px;
+}
+
